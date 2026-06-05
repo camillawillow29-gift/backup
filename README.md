@@ -15,7 +15,7 @@ A small Windows batch script that unlocks Brave Origin locally by patching the b
 
 5. Start Brave Origin normally.
 
-The script does not patch the Brave Origin binary and does not launch the browser. It only updates the local `Local State` profile file.
+The script does not patch the Brave Origin binary. It only updates the local `Local State` profile file.
 
 ## Notes
 
