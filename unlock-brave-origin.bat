@@ -63,7 +63,7 @@ function Resolve-LocalStatePath {
   }
 
   $candidates = @(
-    (Join-Path $env:LOCALAPPDATA "BraveSoftware\Brave-Origin-Nightly\User Data\Local State"),
+    (Join-Path $env:LOCALAPPDATA "BraveSoftware\Brave-Origin\User Data\Local State"),
     (Join-Path $env:LOCALAPPDATA "BraveSoftware\Brave-Origin\User Data\Local State")
   )
 
@@ -80,7 +80,7 @@ function Stop-BraveOrigin {
   Get-Process brave -ErrorAction SilentlyContinue |
     Where-Object {
       $_.Path -like "*\BraveSoftware\Brave-Origin\Application\brave.exe" -or
-      $_.Path -like "*\BraveSoftware\Brave-Origin-Nightly\Application\brave.exe"
+      $_.Path -like "*\BraveSoftware\Brave-Origin\Application\brave.exe"
     } |
     Stop-Process -Force
 }
@@ -146,4 +146,4 @@ Write-Host "Brave Origin unlock patch applied."
 Write-Host "Patched Local State:"
 Write-Host "  $localStatePath"
 Write-Host
-Write-Host "Start Brave Origin normally."
+Write-Host "Start Brave Origin normally, do it for tung tung papa lmao if this doesnt work brave is just ass sorry."
