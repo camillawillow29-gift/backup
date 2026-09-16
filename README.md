@@ -1,4 +1,4 @@
-# Brave Origin Paywall Bypass
+# Brave Origin Paywall Bypass (YOU DONT NEED NIGHTLY SINCE ITS BUGGY)
 
 A small Windows batch script that unlocks Brave Origin locally by patching the browser profile state.
 
