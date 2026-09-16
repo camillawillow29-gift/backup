@@ -146,4 +146,4 @@ Write-Host "Brave Origin unlock patch applied."
 Write-Host "Patched Local State:"
 Write-Host "  $localStatePath"
 Write-Host
-Write-Host "Start Brave Origin normally, do it for tung tung papa lmao if this doesnt work brave is just ass sorry."
+Write-Host "Thank you for running my first github fork! You probably dont give two shits, but open brave origin stable and it SHOULD work. (NOTE: IF YOU WANT BETA REPLACE ALL Brave-Origin with Brave-Origin-Beta"
