@@ -147,3 +147,5 @@ Write-Host "Patched Local State:"
 Write-Host "  $localStatePath"
 Write-Host
 Write-Host "Thank you for running my first github fork! You probably dont give two shits, but open brave origin stable and it SHOULD work. (NOTE: IF YOU WANT BETA REPLACE ALL Brave-Origin with Brave-Origin-Beta"
+Write-Host
+Write-Host "What does 'local state' mean? You basically bypassed the pay prompt, so like enjoy brave origin for free. And if it gets patched, i dunno what to say 😭🙏"
