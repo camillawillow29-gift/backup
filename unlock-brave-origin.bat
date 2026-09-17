@@ -63,8 +63,8 @@ function Resolve-LocalStatePath {
   }
 
   $candidates = @(
-    (Join-Path $env:LOCALAPPDATA "BraveSoftware\Brave-Origin\User Data\Local State"),
-    (Join-Path $env:LOCALAPPDATA "BraveSoftware\Brave-Origin\User Data\Local State")
+    (Join-Path $env:LOCALAPPDATA "BraveSoftware\Brave-Origin-Beta\User Data\Local State"),
+    (Join-Path $env:LOCALAPPDATA "BraveSoftware\Brave-Origin-Beta\User Data\Local State")
   )
 
   foreach ($candidate in $candidates) {
@@ -79,8 +79,8 @@ function Resolve-LocalStatePath {
 function Stop-BraveOrigin {
   Get-Process brave -ErrorAction SilentlyContinue |
     Where-Object {
-      $_.Path -like "*\BraveSoftware\Brave-Origin\Application\brave.exe" -or
-      $_.Path -like "*\BraveSoftware\Brave-Origin\Application\brave.exe"
+      $_.Path -like "*\BraveSoftware\Brave-Origin-Beta\Application\brave.exe" -or
+      $_.Path -like "*\BraveSoftware\Brave-Origin-Beta\Application\brave.exe"
     } |
     Stop-Process -Force
 }
